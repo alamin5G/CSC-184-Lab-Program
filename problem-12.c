@@ -1,30 +1,38 @@
-/*prime number check*/
-#include<stdio.h>
+#include <stdio.h>
 
-void main()
+int main()
 {
-    int j,n,c=0;
+    int m;
+    printf("\nEnter the marks: ");
+    scanf("%d",&m);
 
-    printf("Enter the number \n");
-    scanf("%d",&n);
-
-
-    for(j=2; j<=n/2; j++)
+    switch(m>=0 && m<=100)
     {
-        if(n%j==0)
+    case 1:
+        switch(m/10)
         {
-            c++;
+        case 10:
+        case 9:
+            printf("A\n");
             break;
+        case 8:
+            printf("B\n");
+            break;
+        case 7:
+            printf("C\n");
+            break;
+        case 6:
+            printf("D\n");
+            break;
+        default:
+                printf("F");
+
         }
+        break;
+    default:
+        printf("Invalid Marks!\n");
     }
 
-    if(c==0)
-        {
-            printf("%d is prime number ",n);
-        }
-        else
-        {
-            printf("%d is not prime number",n);
-        }
+    return 0;
 
 }

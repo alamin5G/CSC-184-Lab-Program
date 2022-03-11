@@ -1,28 +1,22 @@
-/* a program to compute the real roots of a quadratic equation */
+
+
+/* A program to ensure leap year */
 
 #include <stdio.h>
 
 void main(){
 
-	int x1, x2, a, b, c, x,sqroot, noRoot;
-	printf("Enter a, b and c Value : ");
-	scanf("%d%d%d", &a, &b, &c);
+	int year;
+	printf("Enter a year \(ex: 1997\): ");
+	scanf("%d", &year);
 
-	noRoot = b*b-4*a*c;
-
-	if(a == 0 && b == 0){
-		printf("No solution");
-	}else if(a == 0){
-		x = -c/b;
-		printf("one root %d", x);
-	}else if(noRoot<0){
-		printf("Roots are imaginary");
+	if(year%4 == 0 && year%100 !=0){
+		printf("%d is leap year\n", year);
+	}else if(year%400 == 0){
+		printf("%d is leap year\n", year);
 	}else{
-		sqroot = sqrt(b*b-4*a*c);
-		x1 = (-b)+(sqroot/2*a);
-		x2 = (-b)-(sqroot/2*a);
-
-		printf("x1 value is %d\n", x1);
-		printf("x2 value is %d", x2);
+		printf("%d is not leap year.",year);
 	}
+
 }
+
