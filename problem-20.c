@@ -6,9 +6,9 @@ void main(){
     for(row = 1; row<=n; row++){
         for(column=n; column>=1; column--){
             if(row < column){
-                printf(" ");
+                printf("   ");
             }else{
-                printf("*");
+                printf(" * ");
             }
         }
         printf("\n");   
