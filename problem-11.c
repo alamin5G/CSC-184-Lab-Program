@@ -7,7 +7,7 @@
 void main(){
 
 	int year;
-	printf("Enter a year \(ex: 1997\): ");
+	printf("Enter a year (ex: 1997): ");
 	scanf("%d", &year);
 
 	if(year%4 == 0 && year%100 !=0){
