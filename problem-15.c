@@ -1,4 +1,4 @@
-// a program for triangle
+// a program for half pyramid
 #include <stdio.h>
 
 
