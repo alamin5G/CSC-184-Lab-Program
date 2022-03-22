@@ -32,7 +32,7 @@ void main(){
         }
         printf("\n");
     }
-    printf("The upper elements of A matrix are: ");
+    printf("The lower elements of A matrix are: ");
     for (r = 0; r < n; r++)
     {
         for (c = 0; c < n; c++)
