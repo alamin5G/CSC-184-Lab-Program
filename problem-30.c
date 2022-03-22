@@ -38,7 +38,7 @@ void main(){
         for (c = 0; c < n; c++)
         {
            if(r == c){
-                printf("%d\t", A[c][r]);
+                printf("%d\t", A[r][c]);
            }
         }
     }
