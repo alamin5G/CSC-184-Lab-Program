@@ -1,4 +1,4 @@
-/*Program to determine area of a circle*/
+/*Write a Program to determine area of a circle*/
 
 #include <stdio.h>
 
