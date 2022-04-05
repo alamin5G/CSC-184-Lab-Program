@@ -1,4 +1,4 @@
-/*Grade Calculation using Ternary Operator*/
+/*write a program for Grade Calculation using Ternary Operator*/
 
 #include <stdio.h>
 
