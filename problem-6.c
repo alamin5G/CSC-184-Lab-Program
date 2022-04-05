@@ -1,3 +1,5 @@
+/// write a program to show a multiplication table. 
+
 #include<stdio.h>
 void main()
 {
