@@ -1,3 +1,4 @@
+///write a program to check it is leap year or not using ternary operator. 
 #include<stdio.h>
 void main()
 {
