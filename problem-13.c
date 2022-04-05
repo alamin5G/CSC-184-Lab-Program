@@ -1,4 +1,4 @@
-/*prime number check*/
+/*write a program to check it is prime number or not*/
 #include<stdio.h>
 
 void main()
