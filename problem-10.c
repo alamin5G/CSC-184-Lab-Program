@@ -1,4 +1,4 @@
-/* a program to compute the real roots of a quadratic equation */
+/* write a program to compute the real roots of a quadratic equation */
 
 #include <stdio.h>
 
