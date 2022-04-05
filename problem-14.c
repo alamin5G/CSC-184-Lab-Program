@@ -1,4 +1,4 @@
-/*square metrix shape*/
+/**square matrix shape of * */
 
 #include <stdio.h>
 void main(){
