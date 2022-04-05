@@ -1,3 +1,5 @@
+/*Write a program to check the Grades by inputing marks using switch-case*/
+
 #include <stdio.h>
 
 int main()
