@@ -1,8 +1,8 @@
-/*Write a program to check the Grades by inputing marks using switch-case*/
+/**Write a program to check the Grades by inputing marks using switch-case*/
 
 #include <stdio.h>
 
-int main()
+void main()
 {
     int m;
     printf("\nEnter the marks: ");
@@ -34,7 +34,5 @@ int main()
     default:
         printf("Invalid Marks!\n");
     }
-
-    return 0;
 
 }
