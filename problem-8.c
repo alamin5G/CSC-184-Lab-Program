@@ -1,3 +1,8 @@
+///write a program to check the largest number. 
+///If x is largest show x + y + z;
+///if y is largest show x*x + y*y + z*z;
+///if z is larges show x*y + y*z + z*x;
+
 #include<stdio.h>
 void main()
 {
