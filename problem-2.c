@@ -1,4 +1,4 @@
-/*Program to determine area of a rectangle*/
+/** write a program to determine area of a rectangle*/
 
 #include <stdio.h>
 
